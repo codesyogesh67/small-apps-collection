@@ -1,6 +1,7 @@
 import React from "react";
 import PdfPagePicker from "./PdfPagePicker";
 import DocxToQuestions from "./DocxToQuestions";
+import MergePdfUploader from "./MergePdfUploader";
 
 interface Props {}
 
@@ -10,6 +11,7 @@ const page = (props: Props) => {
       <h2 className="text-4xl mt-15 text-semibold">PDF Editing</h2>
       <PdfPagePicker />
       <DocxToQuestions />
+      <MergePdfUploader />
     </div>
   );
 };
